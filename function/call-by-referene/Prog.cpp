@@ -26,7 +26,7 @@ void squareByReference(int &);
 int main() {
     int x = 2, z = 4;
 
-    cout << "x = " << x << "before squareByValue\n"
+    cout << "x = " << x << " before squareByValue\n"
         << "Value returned by squareByValue: "
         << squareByValue( x ) << endl
         << "x = " << x << " after squareByValue\n" << endl;

@@ -8,6 +8,7 @@
 *.suo
 *.sdf
 *.user
+*.exe
 Debug/
 ipch/
 Release/

@@ -33,7 +33,7 @@ $ ./a.out
 
 ### C++ code 提供給 C 使用
 ```c++
-/* c_function.h
+/* c_function.h */
 
 #ifdef __cplusplus
 extern "C" {

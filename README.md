@@ -5,7 +5,7 @@ learn c++ by examples
 
 ## [extern “C” 如何使系統函式庫兼容C與C++](https://hackmd.io/@rhythm/HyOxzDkmD)
 ### C code 提供給 C++ 使用
-```c
+```c++
 void c_function() {
   /** do something. */
   // ...
@@ -32,7 +32,7 @@ $ ./a.out
 ```
 
 ### C++ code 提供給 C 使用
-```c
+```c++
 /* c_function.h
 
 #ifdef __cplusplus

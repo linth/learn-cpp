@@ -1,20 +1,13 @@
-// #include <iostream>
-#include "Show.h"
+#include "CWin.h"
+#include <iostream>
 
 using namespace std;
 
 
 int main(int argc, char const *argv[]) {
-  
-  Show s;
-  s.showHelloWorld();
 
-  /**
-   * TODO: error 
-   * 
-   * undefined reference to `Show::showHelloWorld()'
-   * collect2.exe: error: ld returned 1 exit status
-  */
+  CWin win1('A', 50, 60);
+  win1.show();
 
   return 0;
 }

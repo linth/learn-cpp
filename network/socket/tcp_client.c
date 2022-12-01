@@ -30,7 +30,8 @@ void func(int sockfd) {
         }
     }
 }
- 
+
+//TODO: comments for actions.
 int main() {
     int sockfd, connfd;
     struct sockaddr_in servaddr, cli;

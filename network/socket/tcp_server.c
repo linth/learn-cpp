@@ -18,7 +18,7 @@
 #define PORT 8080
 #define SA struct sockaddr
 
-
+//TODO: comments for actions.
 void func(int connfd) {
     char buff[MAX];
     int n;

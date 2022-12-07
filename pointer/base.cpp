@@ -33,6 +33,7 @@ using namespace std;
 int main(int argc, char const *argv[]) {
 
   // long* pnumber are long *pnumber are ok.
+  //! 初始化指標很重要!
   long* pnumber;
   long number = 12345;
 

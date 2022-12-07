@@ -2,6 +2,11 @@
  * strcpy() 使用
  *  - char *strcpy(char *dest, const char *src)
  * 
+ * strlen() 使用
+ *  - 計算 string 的長度
+ * 
+ *TODO:  - sizeof() 可以一起使用 ???
+ * 
  * Reference:
  *  - https://www.runoob.com/cprogramming/c-function-strcpy.html
 */
@@ -10,7 +15,7 @@
 
 
 int main(int argc, char const *argv[]) {
-  
+
   char src[40];
   char dest[100];
 
@@ -19,6 +24,12 @@ int main(int argc, char const *argv[]) {
   strcpy(dest, src);
 
   printf("The result finally is %s\n", dest);
+
+
+  // strlen
+  printf("the char of src %d\n", strlen(src));
+  //TODO: sizeof(), 會失敗
+
 
   return 0;
 }
